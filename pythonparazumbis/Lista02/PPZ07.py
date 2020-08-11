@@ -9,7 +9,7 @@ compradas e o preço total. Obs. : somente são vendidos um número inteiro de l
 tamanho = float(input('Qual o tamanho em metros quadrados da área? '))
 #o valor total em metros por lata é de 54.
 #para saber o total de latas é preciso informar que o número deve ser inteiro
-#para que o número de latas seja 
+#para que o número de latas seja inteiro e não float.
 latas = int(tamanho/54)
 valor = latas*80
 
